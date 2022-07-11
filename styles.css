@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    background-color: #4070F4;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .brand-logo{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #fff;
+}
+
+header a img{
+    width: 100px;
+    padding: 5px 60px 5px 10px;
+}
+
+header .main-nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+header .main-nav ul a{
+    text-decoration: none;
+    color: inherit;
+    padding: 1.75rem;
+}
+
+header .main-nav ul a:hover{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    min-height: 80vh;
+    max-width: 1200px;
+    margin: 15px;
+}
+
+.container h1{
+    padding: 10px;
+    font-size: 4.5em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container h3{
+    padding: 10px;
+    font-size: 3em;
+    font-family: 'Poppins', sans-serif;
+    color: #4070F4;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.container p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3em;
+    padding: 10px;
+    text-align: justify;
+}
+
+.container h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.3em;    
+    font-weight: 400;    
+    padding: 10px;
+}
+
+.button-card{
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.btn{
+    margin: 7px;
+    padding: 7px;
+    background-color: #4070F4;
+    color: #fff;
+    width: 10em;
+    height: 3em;
+    font-size: 1.5em;
+    border-radius: 15px;
+}
+
+a .btn{
+    text-decoration: none;
+    color: #fff;
+}
+
+a .btn:hover {
+    width: 10.1em;
+    height: 3.1em;
+    font-weight: 400;
+    cursor: pointer;
+    border-color: #13074a;
+}
+
+.consultation-form{
+    display: flex;
+    justify-content: end;
+    font-family: 'Poppins', sans-serif;
+}
+
+.consultation-form form .input-name{
+    display: flex;
+}
+
+.consultation-form form .input-name .firstname{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #4070F4;
+    width: 20vw;
+}
+.consultation-form form .input-name .firstname input{
+    background-color: #C3D2FD;
+    border-color: #4070F4;
+    border-radius: 10px;
+    height: 30px;
+    padding: 3px;
+}
+
+.consultation-form form .input-name .lastname{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #4070F4;
+    width: 20vw;
+}
+.consultation-form form .input-name .lastname input{
+    background-color: #C3D2FD;
+    border-color: #4070F4;
+    border-radius: 10px;
+    height: 30px;
+    padding: 3px;
+}
+
+.consultation-form form .input-email{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #4070F4;
+}
+.consultation-form form .input-email input{
+    background-color: #C3D2FD;
+    border-color: #4070F4;
+    border-radius: 10px;
+    height: 30px;
+    padding: 3px;
+}
+
+.consultation-form form .input-reason{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 1.3em;
+    color: #4070F4;
+}
+.consultation-form form .input-reason input{
+    background-color: #C3D2FD;
+    border-color: #4070F4;
+    border-radius: 10px;
+    height: 60px;
+    padding: 3px;
+}
+
+footer{
+    background-color: #4070F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer nav ul{
+    display: flex;
+    list-style: none;
+}
+
+footer nav ul li a:hover{
+    font-weight: bold;
+    color: aliceblue;
+}
+
+footer nav ul li{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 5px 40px;
+    font-size: 1.5em;
+}
